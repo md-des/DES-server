@@ -6,15 +6,15 @@ const Post = mongoose.model('Post');
 
 export default async req => {
   const args = await argsFilter(req.query, {
-    author: ["required", "string"]
+    id: ["required", "string"]
   });
-  // 不输出content
-  const docs = await Post.find({author: args.author}, {content: 0}).sort({ create_time: -1 });
+  // 只输出title和content
+  const detail = await Post.findOne({_id: args.id}, {title: 1, content: 1});
 
   return {
     code: code.success,
     data: {
-      docs
+      detail
     }
   };
 };
