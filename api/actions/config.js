@@ -8,7 +8,7 @@ module.exports = {
     success: 1000,
     fail: 2000
   },
-  db: "mongodb://localhost/DES",
+  db: "mongodb://127.0.0.1/DES",
   cosmosDB: 'mongodb://localhost/DES-cosmos-dev',
   testDB: "mongodb://localhost/DES-test",
   protocol: "DES://",

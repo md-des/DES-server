@@ -504,3 +504,38 @@
 [2019-01-28 18:01:30.050] [INFO] console - [ [ { object: [Object], key: undefined },
     { object: [Object], key: undefined } ] ] 'results'
 [2019-01-28 18:01:30.053] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ece48a88b3def41a39e32 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:01:19.474] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:01:19.483] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ece48a88b3def41a39e32 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:01:25.035] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:01:25.038] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ece48a88b3def41a39e32 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:08:51.073] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: 
+     { content: '##react组件传值，大概有下面几种方法：\n- props\n- context\n- redux\n- react-router 路由切换时通过url传值（少量非机密数据，其实也是props传）。\n\n##今天记录一下通过redux来传值的实现。\n我们先写一个createAction的函数：\n```\nexport function setAnalysisParams(params) {\n  return {\n    type: SET_ANALYSIS_PARAMS,\n    result: params\n  }\n}\n```\n在reducer里面：\n```\nexport default function reducer(state = initialState, action = {}) {\n  switch (action.type) {\n    case SET_ANALYSIS_PARAMS:\n      return {\n        ...state,\n        params: action.result\n      };\n    default:\n      return state;\n  }\n```\n当action触发reducer时，会把action的result传给reducer的params。写好这里，我们就可以在组件中传给adction params了。\n```\n@connect(\n  () => ({\n  }),\n  {\n    setAnalysisParams\n  })\n```\n先把actionCreator拿出来。\n在组件的某个需要的地方，可以直接向它传我们要放进redux里的数据：\n```\nthis.props.setAnalysisParams({\n        someModels\n      });\n```\n这时，我们就可以在另外一个组件中取到刚刚放进去的数据。\n另外一个组件：\n```\n@connect(\n  state => ({\n    example: state.clinic.params\n  }),\n  {}\n)\n```\n把redux中的params数据映射到example上。\n下面，就可以用了：\n```\n const {someNames, ...} = this.props.example; //取出数据名\n```\n以上，就实现了redux来传值的方法。适合非父子组件且嵌套关系复杂的组件之间数据的传递。\n\n\n' },
+    key: undefined } ] 'results'
+[2019-01-28 19:08:51.098] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:08:52.901] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:08:52.910] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c4a6b17c81cb7496c3570f4 HTTP/1.1" 200 568 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:08:56.471] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:08:56.473] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c4ee2c3a88b3def41a39e34 HTTP/1.1" 200 1717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:12:36.750] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:12:36.763] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ed19ba88b3def41a39e33 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:13:08.158] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:13:08.164] [WARN] http - undefined - - "GET /posts/list?author=5c4a6b17c81cb7496c3570f4 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:13:12.559] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:13:12.562] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ee2c3a88b3def41a39e34 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:15:16.524] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:15:16.532] [WARN] http - undefined - - "GET /posts/list?author=5c4a6b17c81cb7496c3570f4 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-28 19:15:32.803] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-28 19:15:32.808] [WARN] http - undefined - - "GET /posts/getPost?id=5c4ed19ba88b3def41a39e33 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"

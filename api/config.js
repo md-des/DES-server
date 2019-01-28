@@ -11,11 +11,11 @@ const environment = {
 
 module.exports = Object.assign({
   rootURL: '/asset',
-  apiHost: process.env.APIHOST || 'localhost',
+  apiHost: process.env.APIHOST || '127.0.0.1',
   apiPort: process.env.APIPORT,
   redis: {
     port: 6379,
-    host: 'localhost'
+    host: '127.0.0.1'
   },
   kue: {
     port: (parseInt(process.env.APIPORT, 10) + 1),
