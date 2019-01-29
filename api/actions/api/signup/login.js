@@ -17,6 +17,6 @@ export default async req => {
   } else {
     req.session.user = user;
     req.session.exp = Date.now() + kExpirePeriod;
-    return { code: code.success, data: { userId: user._id } };
+    return { code: code.success, data: { user: {name: user.name, role: user.role, create_time: user.create_time, _id: user._id} } };
   }
 };

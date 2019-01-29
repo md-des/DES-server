@@ -5,7 +5,6 @@ import {roleAuthPromise} from "../../lib/auth";
 const Post = mongoose.model('Post');
 
 export default async req => {
-  console.log(req.session, 'session')
   await roleAuthPromise(req, 'read', 'post');
   const args = await argsFilter(req.query, {
     id: ["required", "string"]
