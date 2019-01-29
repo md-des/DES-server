@@ -796,3 +796,278 @@
 [2019-01-29 16:05:47.318] [INFO] console - [ [ { object: [Object], key: undefined },
     { object: [Object], key: undefined } ] ] 'results'
 [2019-01-29 16:05:47.320] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 32 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:10:49.585] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:10:49.602] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:10:49.689] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:10:49.691] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:10:54.972] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:10:54.981] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:14:25.184] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { key: undefined } ] 'results'
+[2019-01-29 16:14:25.185] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/account HTTP/1.1" 200 40 "http://localhost:9000/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:14:40.184] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:14:40.194] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:14:40.279] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:14:40.285] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:14:44.846] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:14:44.849] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:15:02.927] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '> this is a test post ' },
+    key: undefined } ] 'results'
+[2019-01-29 16:15:02.936] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:15:06.133] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:15:06.136] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 191 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:15:07.877] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:15:07.881] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 200 122 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:36:31.517] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:36:31.529] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:41:52.256] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:41:52.274] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:49:40.542] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:49:40.569] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:49:40.662] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:49:40.673] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 16:52:03.080] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 16:52:03.085] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:04:25.206] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:04:25.234] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:05:04.738] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:05:04.738Z,
+     originalMaxAge: 14400000,
+     httpOnly: true } } 'req.session'
+[2019-01-29 17:05:04.740] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:05:04.745] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:05:51.584] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:05:51.611] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:05:53.652] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T09:06:53.651Z,
+     originalMaxAge: 60000,
+     httpOnly: true } } 'req.session'
+[2019-01-29 17:05:53.653] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:05:53.657] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:07:47.236] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:07:47.255] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:07:54.872] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 200 68 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:07:57.077] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:07:58.444] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:08:14.446] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:09:37.971] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:09:37.977] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:09:46.024] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:12:15.308] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:12:15.341] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:12:15.388] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:12:15.393] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:12:15.492] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:12:15.495] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:15:12.641] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:15:12.646] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:15:15.746] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:15:15.748] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:15:17.798] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:16:21.542] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:16:21.567] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:16:21.718] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:16:21.729] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:16:23.351] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:17:02.227] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:17:02.285] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:17:02.534] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:17:02.542] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:17:03.845] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:18:01.600] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:18:01.628] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:18:01.745] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:18:01.756] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:18:13.681] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:18:13.680Z,
+     originalMaxAge: 14400000,
+     httpOnly: true } } 'session'
+[2019-01-29 17:18:13.686] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:29:02.513] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:29:02.552] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:29:02.701] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:29:02.743] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:29:04.421] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:29:02.540Z,
+     originalMaxAge: 14400000,
+     httpOnly: true },
+  user: 
+   { _id: '5c50094c99d8808eaeaf39b1',
+     name: 'zlx',
+     pass: '6ed7e9a926ea015b',
+     type: '0',
+     __v: 0,
+     create_time: 1548749132946,
+     deleted: false },
+  exp: 1548755942537 } 'session'
+[2019-01-29 17:29:04.423] [INFO] console - will check 1548755942537 1548754144423
+[2019-01-29 17:29:04.423] [INFO] console - will update 1548755944423 1548754144423
+[2019-01-29 17:29:04.451] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m TypeError: Cannot read property 'length' of null
+    at /workspace/DESserver/node_modules/rbac/dist/RBAC.js:602:35
+    at Memory.getGrants (/workspace/DESserver/node_modules/rbac/dist/storages/Memory.js:195:16)
+    at RBAC._traverseGrants (/workspace/DESserver/node_modules/rbac/dist/RBAC.js:595:20)
+    at RBAC.can (/workspace/DESserver/node_modules/rbac/dist/RBAC.js:639:12)
+    at /workspace/DESserver/api/actions/lib/auth.js:65:16
+    at new Promise (<anonymous>)
+    at new F (/workspace/DESserver/node_modules/core-js/library/modules/_export.js:36:28)
+    at roleAuthPromise (/workspace/DESserver/api/actions/lib/auth.js:39:10)
+    at _callee$ (/workspace/DESserver/api/actions/api/posts/getPost.js:9:9)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (/workspace/DESserver/node_modules/core-js/library/modules/_export.js:36:28)
+[2019-01-29 17:29:04.454] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 200 58 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:33:00.893] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:33:00.921] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 58 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:33:01.034] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:33:01.049] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:33:02.817] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:33:00.914Z,
+     originalMaxAge: 14400000,
+     httpOnly: true },
+  user: 
+   { _id: '5c50094c99d8808eaeaf39b1',
+     name: 'zlx',
+     role: 'superadmin',
+     pass: '6ed7e9a926ea015b',
+     type: '0',
+     __v: 0,
+     create_time: 1548749132946,
+     deleted: false },
+  exp: 1548756180911 } 'session'
+[2019-01-29 17:33:02.819] [INFO] console - will check 1548756180911 1548754382819
+[2019-01-29 17:33:02.819] [INFO] console - will update 1548756182819 1548754382819
+[2019-01-29 17:33:02.822] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 200 40 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:38:54.556] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:33:02.821Z,
+     originalMaxAge: 14400000,
+     httpOnly: true },
+  user: 
+   { _id: '5c50094c99d8808eaeaf39b1',
+     name: 'zlx',
+     role: 'superadmin',
+     pass: '6ed7e9a926ea015b',
+     type: '0',
+     __v: 0,
+     create_time: 1548749132946,
+     deleted: false },
+  exp: 1548756182819 } 'session'
+[2019-01-29 17:38:54.560] [INFO] console - will check 1548756182819 1548754734560
+[2019-01-29 17:38:54.560] [INFO] console - will update 1548756534560 1548754734560
+[2019-01-29 17:38:54.569] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:40:53.302] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:38:54.563Z,
+     originalMaxAge: 14400000,
+     httpOnly: true },
+  user: 
+   { _id: '5c50094c99d8808eaeaf39b1',
+     name: 'zlx',
+     role: 'superadmin',
+     pass: '6ed7e9a926ea015b',
+     type: '0',
+     __v: 0,
+     create_time: 1548749132946,
+     deleted: false },
+  exp: 1548756534560 } 'session'
+[2019-01-29 17:40:53.308] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:40:53.331] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 200 122 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:49:19.448] [INFO] console - Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-29T13:38:54.563Z,
+     originalMaxAge: 14400000,
+     httpOnly: true },
+  user: 
+   { _id: '5c50094c99d8808eaeaf39b1',
+     name: 'zlx',
+     role: 'superadmin',
+     pass: '6ed7e9a926ea015b',
+     type: '0',
+     __v: 0,
+     create_time: 1548749132946,
+     deleted: false },
+  exp: 1548756534560 } 'session'
+[2019-01-29 17:49:19.453] [INFO] console - will check 1548756534560 1548755359453
+[2019-01-29 17:49:19.453] [INFO] console - will update 1548757159453 1548755359453
+[2019-01-29 17:49:19.455] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:49:19.473] [WARN] http - undefined - - "GET /posts/getPost?id=5c500b8699d8808eaeaf39b2 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-01-29 17:50:47.877] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-01-29 17:50:47.902] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"

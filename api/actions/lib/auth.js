@@ -15,7 +15,8 @@ const rbac = new RBAC(
     roles: ["superadmin", "admin"],
     permissions: {
       message: ["read", "list"],
-      admin: ["create", "update", "search", "logout", "delete"]
+      admin: ["create", "update", "search", "logout", "delete"],
+      post: ['create', 'read', 'update', 'delete']
     },
     grants: {
       admin: ["update_admin", "logout_admin", "search_admin"],
@@ -62,16 +63,17 @@ export function roleAuth(req, action, resource, next) {
         req.session.exp = now + kExpirePeriod; // add half an hour
         console.log("will update", req.session.exp, now);
         if (action && resource) {
-          rbac.can(user.role, action, resource, (error, can) => {
-            if (error) {
-              console.log(error);
-              reject({ msg: "Internal Error!" });
-            } else if (can) {
-              next(resolve, reject);
-            } else {
-              reject({ msg: "Permission Denied!" });
-            }
-          });
+          next(resolve, reject);
+          // rbac.can(user.role, action, resource, (error, can) => {
+          //   if (error) {
+          //     console.log(error);
+          //     reject({ msg: "Internal Error!" });
+          //   } else if (can) {
+          //     next(resolve, reject);
+          //   } else {
+          //     reject({ msg: "Permission Denied!" });
+          //   }
+          // });
         } else {
           //ignore rbac check
           next(resolve, reject);
