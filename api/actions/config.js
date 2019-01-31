@@ -9,6 +9,12 @@ module.exports = {
     fail: 2000
   },
   db: "mongodb://127.0.0.1/DES",
+  dbHost: "127.0.0.1",
+  dbPort: "27017",
+  dbName: "DES",
+  dbUser: "zlx",
+  dbPass: "8c8e5820a11cbbbdee276669cf3bdf6a", // 
+  secretKey: "8d31c99f-eb51-477d-b32a-e43792066729",
   cosmosDB: 'mongodb://localhost/DES-cosmos-dev',
   testDB: "mongodb://localhost/DES-test",
   protocol: "DES://",

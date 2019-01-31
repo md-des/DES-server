@@ -16,12 +16,12 @@ import path from "path";
 import dbConfig from "./actions/config";
 import { randomString } from "./actions/lib/util";
 import kueCreator from "./kue";
-
+import kit from 'utils/kit.js';
 function appLoader() {
   console.log("----start to load server------");
-
-  mongoose.connect(dbConfig.db);
-  /* mongoose.connect(dbConfig.testDB);*/
+  const {dbUser, dbPass, secretKey, dbHost, dbPort, dbName} = dbConfig;
+  const pass = kit.decryptDES(dbPass, secretKey);
+  mongoose.connect("mongodb://" + dbUser + ":" + pass + "@" + dbHost + ":" + dbPort + "/" + dbName);
   mongoose.Promise = global.Promise;
   const log = log4js.getLogger("app");
   const redisClient = redis.createClient(config.redis.port, config.redis.host);
