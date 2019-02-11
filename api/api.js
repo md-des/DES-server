@@ -21,7 +21,8 @@ function appLoader() {
   console.log("----start to load server------");
   const {dbUser, dbPass, secretKey, dbHost, dbPort, dbName} = dbConfig;
   const pass = kit.decryptDES(dbPass, secretKey);
-  mongoose.connect("mongodb://" + dbUser + ":" + pass + "@" + dbHost + ":" + dbPort + "/" + dbName);
+  mongoose.connect(dbConfig.db)
+  // mongoose.connect("mongodb://" + dbUser + ":" + pass + "@" + dbHost + ":" + dbPort + "/" + dbName);
   mongoose.Promise = global.Promise;
   const log = log4js.getLogger("app");
   const redisClient = redis.createClient(config.redis.port, config.redis.host);
