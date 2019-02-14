@@ -4861,3 +4861,376 @@
 [2019-02-13 17:21:48.963] [INFO] console - [ [ { object: [Object], key: undefined },
     { object: [Object], key: undefined } ] ] 'results'
 [2019-02-13 17:21:48.973] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:49:46.142] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:49:46.277] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:52:49.013] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:52:49.061] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:53:11.545] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:53:11.556] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:53:30.830] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:53:30.843] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:53:54.818] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:53:54.828] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:54:32.570] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:54:32.578] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:54:38.360] [ERROR] http - ::ffff:127.0.0.1 - - "GET /groups/detial HTTP/1.1" 404 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:54:50.757] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:54:50.769] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:55:24.402] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:55:24.414] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:55:45.231] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:55:45.242] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:55:51.632] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:55:51.634] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c525e646578b02d1482f09a HTTP/1.1" 200 258 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:56:11.819] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:56:11.836] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c525e646578b02d1482f09a HTTP/1.1" 200 247 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:59:06.958] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:59:07.017] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:59:10.505] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:59:10.509] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c525e646578b02d1482f09a HTTP/1.1" 200 274 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 09:59:22.169] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 09:59:22.177] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 323 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:01:53.224] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:01:53.254] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:01:57.504] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:01:57.510] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 321 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:13.129] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:13.170] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1000 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:17.826] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:17.831] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:30.559] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:30.562] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 68 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:32.557] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:32.569] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:32.673] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:32.674] [INFO] console - will check 1550111732561 1550109932674
+[2019-02-14 10:05:32.674] [INFO] console - will update 1550111732674 1550109932674
+[2019-02-14 10:05:32.689] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1837 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:05:39.410] [INFO] console - will check 1550111732674 1550109939410
+[2019-02-14 10:05:39.410] [INFO] console - will update 1550111739410 1550109939410
+[2019-02-14 10:05:39.410] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:05:39.413] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 100 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:06:02.051] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title' },
+    key: undefined } ] 'results'
+[2019-02-14 10:06:02.077] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 147 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:06:02.200] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:06:02.201] [INFO] console - will check 1550111739410 1550109962200
+[2019-02-14 10:06:02.201] [INFO] console - will update 1550111762200 1550109962200
+[2019-02-14 10:06:02.207] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:06:08.736] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:06:08.749] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:08:46.326] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:08:46.350] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:09:43.606] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:09:43.632] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:10:05.070] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:10:05.082] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:12:22.261] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:12:22.277] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:14:48.726] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:14:48.735] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:20:00.104] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:20:00.962] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:20:00.971] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1000 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:20:27.205] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:20:27.213] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:20:31.454] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:20:31.462] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:21:04.949] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:21:05.033] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:21:33.544] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:21:33.565] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:21:52.602] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:21:52.606] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c525e646578b02d1482f09a HTTP/1.1" 200 272 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:57:52.485] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:57:52.544] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 10:57:55.970] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 10:57:55.974] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:12:35.808] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:12:35.965] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:13:17.718] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:13:17.744] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:15:00.661] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:15:00.671] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:15:00.799] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:15:00.806] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:15:00.923] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:15:00.931] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:15:09.186] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:15:09.197] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:15:23.462] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:15:23.472] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:16:33.807] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:16:33.824] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:17:49.840] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:17:49.850] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:18:17.912] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:18:17.923] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:18:28.619] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:18:28.627] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:19:06.560] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:19:06.736] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:19:09.352] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:19:09.357] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:19:58.011] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:19:58.022] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:20:04.656] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:20:04.660] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:25:24.568] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:25:24.602] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:25:27.572] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:25:27.581] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:26:35.914] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:26:35.929] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:26:39.710] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:26:39.714] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:23.832] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:23.856] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:28.420] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:28.431] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:41.315] [INFO] console - will check 1550111762200 1550114921315
+[2019-02-14 11:28:41.327] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 71 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:43.060] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:43.066] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:43.184] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:43.184] [INFO] console - will check 1550116723062 1550114923184
+[2019-02-14 11:28:43.185] [INFO] console - will update 1550116723184 1550114923184
+[2019-02-14 11:28:43.204] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:47.032] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:47.041] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:49.431] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:49.434] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:28:51.904] [INFO] console - will check 1550116723184 1550114931904
+[2019-02-14 11:28:51.904] [INFO] console - will update 1550116731904 1550114931904
+[2019-02-14 11:28:51.905] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:28:51.907] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 122 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:29:45.578] [INFO] console - will check 1550116731904 1550114985578
+[2019-02-14 11:29:45.578] [INFO] console - will update 1550116785578 1550114985578
+[2019-02-14 11:29:45.579] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:29:45.582] [WARN] http - undefined - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:30:10.294] [INFO] console - will check 1550116785578 1550115010294
+[2019-02-14 11:30:10.294] [INFO] console - will update 1550116810294 1550115010294
+[2019-02-14 11:30:10.295] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:30:10.299] [WARN] http - undefined - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:30:24.273] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title' },
+    key: undefined } ] 'results'
+[2019-02-14 11:30:24.331] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 152 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:37:22.709] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:37:22.742] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1010 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:37:26.466] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:37:26.483] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 326 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:37:33.018] [INFO] console - will check 1550116810294 1550115453018
+[2019-02-14 11:37:33.019] [INFO] console - will update 1550117253018 1550115453018
+[2019-02-14 11:37:33.020] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:37:33.025] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 127 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:37:45.323] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title' },
+    key: undefined } ] 'results'
+[2019-02-14 11:37:45.331] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 154 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:37:45.410] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:37:45.410] [INFO] console - will check 1550117253018 1550115465410
+[2019-02-14 11:37:45.410] [INFO] console - will update 1550117265410 1550115465410
+[2019-02-14 11:37:45.476] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1844 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:38:20.697] [INFO] console - will check 1550117265410 1550115500697
+[2019-02-14 11:38:20.697] [INFO] console - will update 1550117300697 1550115500697
+[2019-02-14 11:38:20.697] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:38:20.700] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 129 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:38:36.592] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title' },
+    key: undefined } ] 'results'
+[2019-02-14 11:38:36.600] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 158 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:38:36.672] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:38:36.673] [INFO] console - will check 1550117300697 1550115516673
+[2019-02-14 11:38:36.673] [INFO] console - will update 1550117316673 1550115516673
+[2019-02-14 11:38:36.739] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1848 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:39:18.435] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title sndkad' },
+    key: undefined } ] 'results'
+[2019-02-14 11:39:18.438] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 165 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:39:18.592] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:39:18.593] [INFO] console - will check 1550117316673 1550115558593
+[2019-02-14 11:39:18.593] [INFO] console - will update 1550117358593 1550115558593
+[2019-02-14 11:39:18.600] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:41:45.114] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:41:45.156] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1022 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:41:47.082] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:41:47.099] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:42:11.200] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:42:11.228] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:42:13.147] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:42:13.152] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 332 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:42:15.999] [INFO] console - will check 1550117358593 1550115735999
+[2019-02-14 11:42:15.999] [INFO] console - will update 1550117535999 1550115735999
+[2019-02-14 11:42:15.999] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:42:16.003] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 140 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:42:26.203] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title sndkad' },
+    key: undefined } ] 'results'
+[2019-02-14 11:42:26.210] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 159 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:13.224] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:43:13.241] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1010 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:15.035] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:43:15.039] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 326 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:16.953] [INFO] console - will check 1550117535999 1550115796953
+[2019-02-14 11:43:16.953] [INFO] console - will update 1550117596953 1550115796953
+[2019-02-14 11:43:16.953] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:43:16.957] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 134 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:25.132] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title sndkad' },
+    key: undefined } ] 'results'
+[2019-02-14 11:43:25.140] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 165 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:32.996] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:43:33.012] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1022 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:43:34.885] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:43:34.894] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 332 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:44:56.022] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:44:56.053] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:44:58.794] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:44:58.799] [WARN] http - undefined - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:45:01.622] [INFO] console - will check 1550117596953 1550115901622
+[2019-02-14 11:45:01.623] [INFO] console - will update 1550117701622 1550115901622
+[2019-02-14 11:45:01.624] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:45:01.626] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 140 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:45:08.110] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title sndkad' },
+    key: undefined } ] 'results'
+[2019-02-14 11:45:08.116] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 159 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:50:39.622] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:50:39.636] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1010 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:50:41.662] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:50:41.676] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c63bff8973b939cd9d2bfbe HTTP/1.1" 200 326 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:50:44.070] [INFO] console - will check 1550117701622 1550116244070
+[2019-02-14 11:50:44.071] [INFO] console - will update 1550118044070 1550116244070
+[2019-02-14 11:50:44.072] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:50:44.075] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 134 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:50:51.941] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## jjjj\n> this is a title sndkad' },
+    key: undefined } ] 'results'
+[2019-02-14 11:50:51.948] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 162 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-02-14 11:50:58.449] [INFO] console - will check 1550118044070 1550116258449
+[2019-02-14 11:50:58.450] [INFO] console - will update 1550118058449 1550116258449
+[2019-02-14 11:50:58.451] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-02-14 11:50:58.453] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c51553f5c10eaa2f3c041e9 HTTP/1.1" 200 137 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
