@@ -26,7 +26,9 @@ function appLoader() {
   mongoose.Promise = global.Promise;
   const log = log4js.getLogger("app");
   const redisClient = redis.createClient(config.redis.port, config.redis.host);
-
+  redisClient.auth('DAxiao123', function() {
+    console.log('redis server connect success!')
+  })
   const pretty = new PrettyError();
   const app = express();
 
