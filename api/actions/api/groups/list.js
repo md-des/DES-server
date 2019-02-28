@@ -4,7 +4,6 @@ import { argsFilter } from "../../lib/util";
 const User = mongoose.model('Signup');
 const Group = mongoose.model("Groups");
 const Post = mongoose.model('Post');
-// const Users = mongoose.model("Signup")
 export const getMemberAndPostsDetails = async function(groups) {
   const newGroups = [];
   // 将members和posts通过id查出其对应的详情
@@ -19,7 +18,7 @@ export const getMemberAndPostsDetails = async function(groups) {
       group.members.push(member)
     }
     for (let i = 0; i < posts.length; i++) {
-      const post = await Post.findOne({_id: posts[i]}, {_id: 1, title: 1});
+      const post = await Post.findOne({_id: posts[i], deleted: false}, {_id: 1, title: 1});
       group.posts.push(post)
     }
     newGroups.push(group)

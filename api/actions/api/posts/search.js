@@ -12,6 +12,7 @@ export default async req => {
   const posts = await Post.find(
     {
       author: args.author,
+      deleted: false,
       //多条件匹配
       $or: [{ title: { $regex: reg } }]
     },

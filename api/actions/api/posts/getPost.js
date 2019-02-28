@@ -10,7 +10,7 @@ export default async req => {
     id: ["required", "string"]
   });
   // 只输出title和content
-  const detail = await Post.findOne({_id: args.id}, {title: 1, content: 1});
+  const detail = await Post.findOne({_id: args.id, deleted: false}, {title: 1, content: 1});
 
   return {
     code: code.success,

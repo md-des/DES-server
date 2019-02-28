@@ -10,7 +10,7 @@ export default async req => {
   });
   await roleAuthPromise(req, 'read', 'post');
   // 不输出content
-  const docs = await Post.find({author: args.author}, {content: 0}).sort({ create_time: -1 });
+  const docs = await Post.find({author: args.author, deleted: false}, {content: 0}).sort({ create_time: -1 });
 
   return {
     code: code.success,
