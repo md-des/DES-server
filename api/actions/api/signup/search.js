@@ -8,18 +8,19 @@ export default async req => {
   const args = await argsFilter(req.query, {
     name: ['required', 'string']
   });
-  // const user = await Login.find({ name: args.name });
-  const reg = new RegExp(args.name, 'i'); //不区分大小写
-  const users = await Login.find(
-    {
-      //多条件匹配
-      $or: [{ name: { $regex: reg } }]
-    },
-    { _id: 1, name: 1 }
-  ).sort({ create_time: -1 });
-  if (!users) {
-    throw { code: code.fail, msg: '用户不存在！' };
-  } else {
-    return { code: code.success, data: users };
-  }
-};
+  if (args.name) {
+    const reg = new RegExp(args.name, 'i'); //不区分大小写
+    const users = await Login.find(
+      {
+        //多条件匹配
+        $or: [{name: {$regex: reg}}]
+      },
+      {_id: 1, name: 1}
+    ).sort({create_time: -1});
+    if (!users) {
+      throw {code: code.fail, msg: '用户不存在！'};
+    } else {
+      return {code: code.success, data: users};
+    }
+  };
+}
