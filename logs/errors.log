@@ -9626,3 +9626,1050 @@
 [2019-03-14 17:53:37.909] [INFO] http - undefined - - "GET /posts/search?author=5c50094c99d8808eaeaf39b1&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
 [2019-03-14 17:53:44.662] [INFO] console - redis server connect success!
 [2019-03-14 17:53:44.664] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-14 17:54:54.957] [INFO] console - redis server connect success!
+[2019-03-14 17:54:54.958] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:09:13.533] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m TypeError: Cannot read property 'filename' of undefined
+    at /workspace/DESserver/api/actions/api/file/upload.js:13:21
+    at new Promise (<anonymous>)
+    at new F (/workspace/DESserver/node_modules/core-js/library/modules/_export.js:36:28)
+    at exports.default (/workspace/DESserver/api/actions/api/file/upload.js:10:10)
+    at /workspace/DESserver/api/api.js:91:7
+    at Layer.handle [as handle_request] (/workspace/DESserver/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/workspace/DESserver/node_modules/express/lib/router/index.js:317:13)
+    at /workspace/DESserver/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/workspace/DESserver/node_modules/express/lib/router/index.js:335:12)
+    at next (/workspace/DESserver/node_modules/express/lib/router/index.js:275:10)
+    at multerMiddleware (/workspace/DESserver/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/workspace/DESserver/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/workspace/DESserver/node_modules/express/lib/router/index.js:317:13)
+    at /workspace/DESserver/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/workspace/DESserver/node_modules/express/lib/router/index.js:335:12)
+    at next (/workspace/DESserver/node_modules/express/lib/router/index.js:275:10)
+[2019-03-15 09:09:13.542] [INFO] http - ::1 - - "POST /file/upload HTTP/1.1" 200 58 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:09:48.534] [INFO] console - redis server connect success!
+[2019-03-15 09:09:48.536] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:09:53.651] [INFO] console - undefined 'file1212121'
+[2019-03-15 09:09:53.677] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m TypeError: Cannot read property 'filename' of undefined
+    at /workspace/DESserver/api/actions/api/file/upload.js:14:21
+    at new Promise (<anonymous>)
+    at new F (/workspace/DESserver/node_modules/core-js/library/modules/_export.js:36:28)
+    at exports.default (/workspace/DESserver/api/actions/api/file/upload.js:10:10)
+    at /workspace/DESserver/api/api.js:91:7
+    at Layer.handle [as handle_request] (/workspace/DESserver/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/workspace/DESserver/node_modules/express/lib/router/index.js:317:13)
+    at /workspace/DESserver/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/workspace/DESserver/node_modules/express/lib/router/index.js:335:12)
+    at next (/workspace/DESserver/node_modules/express/lib/router/index.js:275:10)
+    at multerMiddleware (/workspace/DESserver/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/workspace/DESserver/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/workspace/DESserver/node_modules/express/lib/router/index.js:317:13)
+    at /workspace/DESserver/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/workspace/DESserver/node_modules/express/lib/router/index.js:335:12)
+    at next (/workspace/DESserver/node_modules/express/lib/router/index.js:275:10)
+[2019-03-15 09:09:53.682] [INFO] http - ::1 - - "POST /file/upload HTTP/1.1" 200 58 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:10:19.174] [INFO] console - redis server connect success!
+[2019-03-15 09:10:19.176] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:11:05.155] [ERROR] http - ::1 - - "POST /file/upload HTTP/1.1" 500 244 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:11:05.155] [ERROR] console - Error: ENOENT: no such file or directory, open '/workspace/DESserver/api/uploads/1552612265149-i0s4g4cp.jpeg'
+[2019-03-15 09:11:32.712] [ERROR] http - ::1 - - "POST /file/upload HTTP/1.1" 500 244 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:11:32.712] [ERROR] console - Error: ENOENT: no such file or directory, open '/workspace/DESserver/api/uploads/1552612292711-l3logarf.jpeg'
+[2019-03-15 09:24:11.897] [INFO] console - redis server connect success!
+[2019-03-15 09:24:11.899] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:28:43.232] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552613323217-kq2g0lak.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552613323217-kq2g0lak.jpeg',
+  size: 8052 } 'file1212121'
+[2019-03-15 09:28:43.352] [INFO] console - null
+[2019-03-15 09:28:43.358] [INFO] http - ::1 - - "POST /file/upload HTTP/1.1" 200 286 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:29:53.286] [ERROR] http - ::1 - - "GET /uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:29:53.577] [ERROR] http - ::1 - - "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:3060/uploads/1552613323217-kq2g0lak.jpeg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:29:58.697] [ERROR] http - ::1 - - "GET /api/uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:30:00.661] [ERROR] http - ::1 - - "GET /api/uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:30:20.183] [ERROR] http - ::1 - - "GET /workspace/DESserver/api/uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:32:27.738] [ERROR] http - ::1 - - "GET /uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:33:14.633] [ERROR] http - ::1 - - "GET /uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:38:50.125] [INFO] console - redis server connect success!
+[2019-03-15 09:38:50.127] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:38:52.929] [ERROR] http - ::1 - - "GET /uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:39:02.977] [INFO] console - redis server connect success!
+[2019-03-15 09:39:02.979] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:39:05.045] [ERROR] http - ::1 - - "GET /uploads/1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:40:08.729] [INFO] console - redis server connect success!
+[2019-03-15 09:40:08.730] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:40:17.312] [INFO] console - redis server connect success!
+[2019-03-15 09:40:17.313] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:41:02.218] [INFO] console - { fieldname: 'file',
+  originalname: 'md.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552614062216-koxr8dct.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552614062216-koxr8dct.jpeg',
+  size: 127803 } 'file1212121'
+[2019-03-15 09:41:02.237] [INFO] console - null
+[2019-03-15 09:41:02.242] [INFO] http - ::1 - - "POST /file/upload HTTP/1.1" 200 286 "" "PostmanRuntime/7.1.1"
+[2019-03-15 09:41:22.274] [ERROR] http - ::1 - - "GET /workspace/DESserver/api/uploads/1552614062216-koxr8dct.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:41:27.662] [ERROR] http - ::1 - - "GET /api/uploads/1552614062216-koxr8dct.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:41:32.604] [ERROR] http - ::1 - - "GET /uploads/1552614062216-koxr8dct.jpeg HTTP/1.1" 404 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:41:36.094] [INFO] http - ::1 - - "GET /1552614062216-koxr8dct.jpeg HTTP/1.1" 200 127803 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:41:44.678] [INFO] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 200 8052 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:45:03.627] [INFO] console - redis server connect success!
+[2019-03-15 09:45:03.628] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 09:46:00.627] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 09:46:00.704] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:46:00.883] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 09:46:00.886] [INFO] console - will check 1552616160660 1552614360886
+[2019-03-15 09:46:00.886] [INFO] console - will update 1552616160886 1552614360886
+[2019-03-15 09:46:00.901] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 09:46:13.358] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 09:46:13.402] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:03:06.761] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:03:06.762] [INFO] console - will check 1552616160886 1552615386762
+[2019-03-15 10:03:06.763] [INFO] console - will update 1552617186762 1552615386762
+[2019-03-15 10:03:06.776] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:03:13.504] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:03:13.532] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:04:10.596] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:04:10.626] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:04:19.064] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:04:19.083] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:04:56.961] [ERROR] http - ::1 - - "POST /file/sadsad HTTP/1.1" 404 - "" "PostmanRuntime/7.1.1"
+[2019-03-15 10:05:28.632] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:05:28.729] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:05:56.501] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:05:56.523] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:05:58.275] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:06:39.128] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:06:39.278] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:06:54.548] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:06:55.425] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:07:25.647] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:11:36.418] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:12:01.250] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:14:22.178] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:14:38.732] [ERROR] http - undefined - - "GET /posts/list1?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 404 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:14:47.192] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:14:47.194] [INFO] console - will check 1552617186762 1552616087194
+[2019-03-15 10:14:47.194] [INFO] console - will update 1552617887194 1552616087194
+[2019-03-15 10:14:47.209] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 10:14:48.952] [INFO] console - will check 1552617887194 1552616088952
+[2019-03-15 10:14:48.953] [INFO] console - will update 1552617888952 1552616088952
+[2019-03-15 10:14:48.953] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 10:14:48.963] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c7e68e94018ef371601e308 HTTP/1.1" 200 32007 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:02:06.789] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:02:06.792] [INFO] console - will check 1552617888952 1552618926792
+[2019-03-15 11:02:06.829] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 71 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:03:05.186] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:03:05.220] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:03:05.431] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:03:05.432] [INFO] console - will check 1552620785202 1552618985432
+[2019-03-15 11:03:05.432] [INFO] console - will update 1552620785432 1552618985432
+[2019-03-15 11:03:05.438] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:03:21.197] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:03:21.224] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:03:22.837] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:03:22.853] [WARN] http - undefined - - "GET /groups/detail?_id=5c89cea221a8442480b2ce2e HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:03:25.317] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 11:03:25.338] [WARN] http - undefined - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:17:39.120] [WARN] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:17:52.103] [WARN] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:37:32.901] [WARN] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:40:34.011] [WARN] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:40:52.590] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:41:52.214] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:42:33.944] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:42:48.063] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552621368054-v073bbyg.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552621368054-v073bbyg.jpeg',
+  size: 8052 } 'file1212121'
+[2019-03-15 11:42:48.216] [INFO] console - null
+[2019-03-15 11:42:48.217] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/upload HTTP/1.1" 200 286 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:43:05.408] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:43:46.832] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 11:43:52.759] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552621432758-mmgfka1e.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552621432758-mmgfka1e.jpeg',
+  size: 8052 } 'file1212121'
+[2019-03-15 11:43:52.775] [INFO] console - null
+[2019-03-15 11:43:52.776] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/upload HTTP/1.1" 200 286 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 13:58:10.493] [INFO] console - redis server connect success!
+[2019-03-15 13:58:10.497] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 13:58:39.980] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 13:58:40.005] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 13:58:40.121] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 13:58:40.123] [INFO] console - will check 1552631319997 1552629520123
+[2019-03-15 13:58:40.123] [INFO] console - will update 1552631320123 1552629520123
+[2019-03-15 13:58:40.138] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:00:57.777] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:00:57.780] [INFO] console - will check 1552631320123 1552629657780
+[2019-03-15 14:00:57.780] [INFO] console - will update 1552631457780 1552629657780
+[2019-03-15 14:00:57.918] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:03:49.655] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:03:49.665] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:03:49.848] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:03:49.849] [INFO] console - will check 1552631629661 1552629829849
+[2019-03-15 14:03:49.849] [INFO] console - will update 1552631629849 1552629829849
+[2019-03-15 14:03:49.854] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:04:32.403] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:04:32.403] [INFO] console - will check 1552631629849 1552629872403
+[2019-03-15 14:04:32.404] [INFO] console - will update 1552631672403 1552629872403
+[2019-03-15 14:04:32.407] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:04:43.588] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:04:43.590] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:04:43.679] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:04:43.679] [INFO] console - will check 1552631683589 1552629883679
+[2019-03-15 14:04:43.680] [INFO] console - will update 1552631683679 1552629883679
+[2019-03-15 14:04:43.720] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:08:31.902] [INFO] console - redis server connect success!
+[2019-03-15 14:08:31.904] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:08:35.146] [INFO] console - redis server connect success!
+[2019-03-15 14:08:35.148] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:09:50.713] [INFO] console - redis server connect success!
+[2019-03-15 14:09:50.714] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:09:55.333] [INFO] console - redis server connect success!
+[2019-03-15 14:09:55.334] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:10:05.723] [INFO] console - redis server connect success!
+[2019-03-15 14:10:05.725] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:45:48.370] [INFO] console - redis server connect success!
+[2019-03-15 14:45:48.371] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:46:00.060] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:46:00.063] [INFO] console - will check 1552631683679 1552632360063
+[2019-03-15 14:46:00.072] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 71 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:46:01.962] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:46:01.989] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:46:02.092] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:46:02.094] [INFO] console - will check 1552634161980 1552632362094
+[2019-03-15 14:46:02.094] [INFO] console - will update 1552634162094 1552632362094
+[2019-03-15 14:46:02.100] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:46:04.706] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:46:23.424] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:46:23.441] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1 } 'userUpdate'
+[2019-03-15 14:46:23.470] [INFO] http - undefined - - "POST /file/uploadAvatar HTTP/1.1" 200 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:47:58.265] [INFO] console - redis server connect success!
+[2019-03-15 14:47:58.266] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:48:12.658] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 49 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:48:59.586] [INFO] console - redis server connect success!
+[2019-03-15 14:48:59.587] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:49:12.524] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:49:12.548] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632383419-lkly1ar.jpeg' } 'userUpdate'
+[2019-03-15 14:49:12.586] [INFO] http - undefined - - "POST /file/uploadAvatar HTTP/1.1" 200 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:53:47.189] [INFO] console - redis server connect success!
+[2019-03-15 14:53:47.190] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:53:48.513] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:54:03.339] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:54:03.394] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632843330-bk44u7sl.jpeg' } 'userUpdate'
+[2019-03-15 14:54:03.407] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m ReferenceError: code is not defined
+    at _callee$ (/workspace/DESserver/api/actions/api/file/uploadAvatar.js:34:11)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-03-15 14:54:03.413] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:54:29.502] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:54:29.513] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632869501-uxvh5bdo.jpeg' } 'userUpdate'
+[2019-03-15 14:54:29.516] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m ReferenceError: code is not defined
+    at _callee$ (/workspace/DESserver/api/actions/api/file/uploadAvatar.js:34:11)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-03-15 14:54:29.518] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:54:54.218] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:54:54.230] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632894212-m6ylw2md.jpeg' } 'userUpdate'
+[2019-03-15 14:54:54.234] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m ReferenceError: code is not defined
+    at _callee$ (/workspace/DESserver/api/actions/api/file/uploadAvatar.js:34:11)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-03-15 14:54:54.237] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:55:18.031] [INFO] console - redis server connect success!
+[2019-03-15 14:55:18.033] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:55:25.416] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:55:25.483] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632925411-7n13qkp.jpeg' } 'userUpdate'
+[2019-03-15 14:55:25.508] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 93 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:55:53.979] [INFO] http - ::1 - - "GET /1552632925411-7n13qkp.jpeg HTTP/1.1" 200 8052 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:55:54.024] [ERROR] http - ::1 - - "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:3060/1552632925411-7n13qkp.jpeg" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:56:04.183] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:56:04.195] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552632964180-29vw7lws.jpeg' } 'userUpdate'
+[2019-03-15 14:56:04.197] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 94 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:56:22.746] [INFO] http - ::1 - - "GET /1552632964180-29vw7lws.jpeg HTTP/1.1" 200 127803 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:56:44.416] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:56:44.426] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552633004414-opukaasj.jpeg' } 'userUpdate'
+[2019-03-15 14:56:44.427] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 94 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:56:56.289] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:56:56.295] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552633016285-w6kf4o6n.jpeg' } 'userUpdate'
+[2019-03-15 14:56:56.296] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 94 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:57:57.540] [INFO] console - redis server connect success!
+[2019-03-15 14:57:57.542] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 14:58:02.747] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:58:11.358] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:58:11.381] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 125 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:58:11.488] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:58:11.490] [INFO] console - will check 1552634891373 1552633091490
+[2019-03-15 14:58:11.491] [INFO] console - will update 1552634891490 1552633091490
+[2019-03-15 14:58:11.508] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:58:21.513] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 14:58:44.810] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 14:58:44.840] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552633016285-w6kf4o6n.jpeg' }
+[2019-03-15 14:58:44.845] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552633124805-8zxsehu.jpeg' } 'userUpdate'
+[2019-03-15 14:58:44.847] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 93 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:01:10.121] [INFO] console - redis server connect success!
+[2019-03-15 15:01:10.122] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:01:41.659] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:01:41.699] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '1552633124805-8zxsehu.jpeg' }
+[2019-03-15 15:01:41.726] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{"message":"Cast to ObjectId failed for value \"1552633124805-8zxsehu.jpeg\" at path \"_id\"","name":"CastError","kind":"ObjectId","value":"1552633124805-8zxsehu.jpeg","[0m  [0m[97mpath":"_id"}[0m
+[0m { CastError: Cast to ObjectId failed for value "1552633124805-8zxsehu.jpeg" at path "_id"
+    at new CastError (/workspace/DESserver/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/workspace/DESserver/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/workspace/DESserver/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/workspace/DESserver/node_modules/mongoose/lib/cast.js:182:32)
+    at model.Query.Query.cast (/workspace/DESserver/node_modules/mongoose/lib/query.js:2650:10)
+    at model.Query.Query.find (/workspace/DESserver/node_modules/mongoose/lib/query.js:1130:10)
+    at /workspace/DESserver/node_modules/mongoose/lib/query.js:2227:21
+    at new Promise (<anonymous>)
+    at model.Query.exec (/workspace/DESserver/node_modules/mongoose/lib/query.js:2220:10)
+    at model.Query.Query.then (/workspace/DESserver/node_modules/mongoose/lib/query.js:2250:15)
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  message: 'Cast to ObjectId failed for value "1552633124805-8zxsehu.jpeg" at path "_id"',
+  name: 'CastError',
+  kind: 'ObjectId',
+  value: '1552633124805-8zxsehu.jpeg',
+  path: '_id',
+  reason: undefined }
+[2019-03-15 15:01:41.737] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:07:29.399] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:07:49.407] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:07:49.416] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1 }
+[2019-03-15 15:07:49.430] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4f45efccf75abcb84f1f' } 'userUpdate'
+[2019-03-15 15:07:49.432] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:08:06.187] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:08:06.200] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4f45efccf75abcb84f1f' }
+[2019-03-15 15:08:06.203] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4f56efccf75abcb84f20' } 'userUpdate'
+[2019-03-15 15:08:06.204] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:09:41.931] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:09:41.938] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4f56efccf75abcb84f20' }
+[2019-03-15 15:09:41.943] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4fb5efccf75abcb84f21' } 'userUpdate'
+[2019-03-15 15:09:41.944] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:13:42.376] [INFO] console - redis server connect success!
+[2019-03-15 15:13:42.378] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:16:24.965] [INFO] console - redis server connect success!
+[2019-03-15 15:16:24.967] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:16:51.568] [INFO] console - redis server connect success!
+[2019-03-15 15:16:51.570] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:17:24.744] [INFO] console - redis server connect success!
+[2019-03-15 15:17:24.745] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:17:41.590] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:18:00.514] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:18:00.549] [INFO] console - { __v: 0,
+  name: '1552634280505-gnhaopdm.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634280505-gnhaopdm.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b51a86a56143abd164e59,
+  create_time: 2019-03-15T07:18:00.520Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:18:00.561] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b4fb5efccf75abcb84f21' }
+[2019-03-15 15:18:00.571] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b51a86a56143abd164e59' } 'userUpdate'
+[2019-03-15 15:18:00.574] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:19:00.493] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:19:00.500] [INFO] console - { __v: 0,
+  name: '1552634340487-df5i2sqf.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634340487-df5i2sqf.jpeg',
+  size: 127803,
+  type: 'image/jpeg',
+  original_name: 'md.jpg',
+  _id: 5c8b51e46a56143abd164e5a,
+  create_time: 2019-03-15T07:19:00.494Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:19:00.502] [INFO] console - old avatar { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b51a86a56143abd164e59' }
+[2019-03-15 15:19:00.509] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b51e46a56143abd164e5a' } 'userUpdate'
+[2019-03-15 15:19:00.517] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:21:13.393] [INFO] console - redis server connect success!
+[2019-03-15 15:21:13.395] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:23:52.344] [INFO] console - redis server connect success!
+[2019-03-15 15:23:52.348] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:23:53.860] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:24:03.840] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:24:03.889] [INFO] console - { __v: 0,
+  name: '1552634643830-qqtfeai.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634643830-qqtfeai.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b531357f9157ebd36963d,
+  create_time: 2019-03-15T07:24:03.845Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:24:03.910] [INFO] console - old user { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b51e46a56143abd164e5a' }
+[2019-03-15 15:24:03.911] [INFO] console - old avatar { _id: 5c8b51e46a56143abd164e5a,
+  name: '1552634340487-df5i2sqf.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634340487-df5i2sqf.jpeg' }
+[2019-03-15 15:24:03.922] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b531357f9157ebd36963d' } 'userUpdate'
+[2019-03-15 15:24:03.935] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:25:17.634] [INFO] console - redis server connect success!
+[2019-03-15 15:25:17.635] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:25:51.610] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:25:51.647] [INFO] console - { __v: 0,
+  name: '1552634751604-t7mtrhas.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634751604-t7mtrhas.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b537f8a55d090bdd9209f,
+  create_time: 2019-03-15T07:25:51.615Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:25:51.663] [INFO] console - old user { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b531357f9157ebd36963d' }
+[2019-03-15 15:25:51.664] [INFO] console - old avatar null
+[2019-03-15 15:25:51.695] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m TypeError: Cannot read property 'path' of null
+    at _callee$ (/workspace/DESserver/api/actions/api/file/uploadAvatar.js:32:28)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+    at <anonymous>
+[2019-03-15 15:25:51.706] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:26:26.681] [INFO] console - redis server connect success!
+[2019-03-15 15:26:26.682] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:26:49.695] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:26:49.722] [INFO] console - { __v: 0,
+  name: '1552634809687-x5tihf0p.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634809687-x5tihf0p.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b53b9edce05aabdc1df0d,
+  create_time: 2019-03-15T07:26:49.698Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:26:49.737] [INFO] console - old user { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b531357f9157ebd36963d' }
+[2019-03-15 15:26:49.737] [INFO] console - old avatar null
+[2019-03-15 15:26:49.749] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b53b9edce05aabdc1df0d' } 'userUpdate'
+[2019-03-15 15:26:49.773] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:27:05.674] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:27:05.680] [INFO] console - { __v: 0,
+  name: '1552634825670-6or0u2w8.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634825670-6or0u2w8.jpeg',
+  size: 127803,
+  type: 'image/jpeg',
+  original_name: 'md.jpg',
+  _id: 5c8b53c9edce05aabdc1df0e,
+  create_time: 2019-03-15T07:27:05.674Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:27:05.684] [INFO] console - old user { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b53b9edce05aabdc1df0d' }
+[2019-03-15 15:27:05.685] [INFO] console - old avatar { _id: 5c8b53b9edce05aabdc1df0d,
+  name: '1552634809687-x5tihf0p.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634809687-x5tihf0p.jpeg' }
+[2019-03-15 15:27:05.693] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b53c9edce05aabdc1df0e' } 'userUpdate'
+[2019-03-15 15:27:05.701] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:27:17.983] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:27:17.994] [INFO] console - { __v: 0,
+  name: '1552634837981-3doe2nq3.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634837981-3doe2nq3.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b53d5edce05aabdc1df0f,
+  create_time: 2019-03-15T07:27:17.984Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:27:18.003] [INFO] console - old user { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b53c9edce05aabdc1df0e' }
+[2019-03-15 15:27:18.003] [INFO] console - old avatar { _id: 5c8b53c9edce05aabdc1df0e,
+  name: '1552634825670-6or0u2w8.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552634825670-6or0u2w8.jpeg' }
+[2019-03-15 15:27:18.007] [INFO] console - { _id: 5c50094c99d8808eaeaf39b1,
+  avatar: '5c8b53d5edce05aabdc1df0f' } 'userUpdate'
+[2019-03-15 15:27:18.009] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 91 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:27:35.247] [INFO] console - redis server connect success!
+[2019-03-15 15:27:35.249] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:29:53.044] [INFO] console - redis server connect success!
+[2019-03-15 15:29:53.046] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:30:29.896] [INFO] console - redis server connect success!
+[2019-03-15 15:30:29.898] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 15:31:00.165] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:31:00.192] [INFO] console - { __v: 0,
+  name: '1552635060159-qd20bz.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552635060159-qd20bz.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b54b49989a1f1bda7b5b2,
+  create_time: 2019-03-15T07:31:00.169Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:31:00.220] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 57 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:31:39.821] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:31:48.009] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:31:48.015] [INFO] console - { __v: 0,
+  name: '1552635108007-b6eei2h.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552635108007-b6eei2h.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b54e49989a1f1bda7b5b3,
+  create_time: 2019-03-15T07:31:48.010Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:31:48.027] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:58:42.826] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:58:52.779] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:58:59.198] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:58:59.209] [INFO] console - { __v: 0,
+  name: '1552636739193-9hgwb1ag.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552636739193-9hgwb1ag.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5b439989a1f1bda7b5b4,
+  create_time: 2019-03-15T07:58:59.199Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:58:59.221] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:59:25.599] [ERROR] http - ::1 - - "GET /1552613323217-kq2g0lak.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 15:59:33.397] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 15:59:33.402] [INFO] console - { __v: 0,
+  name: '1552636773395-ifpu78it.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552636773395-ifpu78it.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5b659989a1f1bda7b5b5,
+  create_time: 2019-03-15T07:59:33.398Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 15:59:33.411] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:00:23.504] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:00:23.508] [INFO] console - { __v: 0,
+  name: '1552636823503-557a7u09.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552636823503-557a7u09.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5b979989a1f1bda7b5b6,
+  create_time: 2019-03-15T08:00:23.505Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:00:23.530] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:01:02.017] [INFO] console - redis server connect success!
+[2019-03-15 16:01:02.020] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:01:08.801] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:01:08.820] [INFO] console - { __v: 0,
+  name: '1552636868794-poerpr4g.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552636868794-poerpr4g.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5bc496849baebe3b1ae7,
+  create_time: 2019-03-15T08:01:08.803Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:01:08.848] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 129 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:03:57.489] [INFO] console - redis server connect success!
+[2019-03-15 16:03:57.491] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:04:09.527] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:04:09.530] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552637049518-mxg9l2g.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552637049518-mxg9l2g.jpeg',
+  size: 8052 } 'filefilefile'
+[2019-03-15 16:04:09.558] [INFO] console - { __v: 0,
+  name: '1552637049518-mxg9l2g.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552637049518-mxg9l2g.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5c79cf54a7c5beb10e06,
+  create_time: 2019-03-15T08:04:09.531Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:04:09.587] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 127 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:13:50.792] [INFO] console - redis server connect success!
+[2019-03-15 16:13:50.794] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:14:32.136] [INFO] console - redis server connect success!
+[2019-03-15 16:14:32.138] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:18:07.671] [INFO] console - redis server connect success!
+[2019-03-15 16:18:07.672] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:18:45.299] [ERROR] http - undefined - - "GET /undefined HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:18:51.164] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:18:51.168] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552637931155-59t3l99.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552637931155-59t3l99.jpeg',
+  size: 8052 } 'filefilefile'
+[2019-03-15 16:18:51.199] [INFO] console - { __v: 0,
+  name: '1552637931155-59t3l99.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552637931155-59t3l99.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b5feb7ca96d02bf02d935,
+  create_time: 2019-03-15T08:18:51.169Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:18:51.225] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 127 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:18:51.260] [INFO] http - undefined - - "GET /1552637931155-59t3l99.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:20:32.103] [ERROR] http - undefined - - "GET /undefined HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:20:38.166] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:20:38.167] [INFO] console - { fieldname: 'file',
+  originalname: '461551230460_.pic.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552638038161-ef9k8ddhn.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552638038161-ef9k8ddhn.jpeg',
+  size: 95785 } 'filefilefile'
+[2019-03-15 16:20:38.182] [INFO] console - { __v: 0,
+  name: '1552638038161-ef9k8ddhn.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552638038161-ef9k8ddhn.jpeg',
+  size: 95785,
+  type: 'image/jpeg',
+  original_name: '461551230460_.pic.jpg',
+  _id: 5c8b60567ca96d02bf02d936,
+  create_time: 2019-03-15T08:20:38.174Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:20:38.191] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 131 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:20:38.217] [INFO] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 200 95785 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:21:17.453] [INFO] console - redis server connect success!
+[2019-03-15 16:21:17.455] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:21:36.402] [INFO] console - redis server connect success!
+[2019-03-15 16:21:36.404] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:21:50.197] [INFO] console - redis server connect success!
+[2019-03-15 16:21:50.198] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:21:52.236] [INFO] console - redis server connect success!
+[2019-03-15 16:21:52.237] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:21:59.359] [INFO] console - redis server connect success!
+[2019-03-15 16:21:59.361] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:23:07.597] [INFO] console - redis server connect success!
+[2019-03-15 16:23:07.598] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:24:12.266] [INFO] console - redis server connect success!
+[2019-03-15 16:24:12.267] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-15 16:24:19.725] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:24:19.756] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 165 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:24:19.896] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:24:19.899] [INFO] console - will check 1552640059746 1552638259899
+[2019-03-15 16:24:19.899] [INFO] console - will update 1552640059899 1552638259899
+[2019-03-15 16:24:19.918] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:25:45.836] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:25:45.837] [INFO] console - will check 1552640059899 1552638345837
+[2019-03-15 16:25:45.837] [INFO] console - will update 1552640145837 1552638345837
+[2019-03-15 16:25:45.849] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:26:15.050] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:26:15.051] [INFO] console - will check 1552640145837 1552638375051
+[2019-03-15 16:26:15.051] [INFO] console - will update 1552640175051 1552638375051
+[2019-03-15 16:26:15.054] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:26:23.145] [WARN] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:27:49.714] [WARN] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:27:56.483] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:27:56.487] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552638476478-uj8hj0w.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552638476478-uj8hj0w.jpeg',
+  size: 8052 } 'filefilefile'
+[2019-03-15 16:27:56.520] [INFO] console - { __v: 0,
+  name: '1552638476478-uj8hj0w.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552638476478-uj8hj0w.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b620c4d81836fbf48f235,
+  create_time: 2019-03-15T08:27:56.488Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:27:56.536] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:27:56.573] [INFO] http - undefined - - "GET /1552638476478-uj8hj0w.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:32:17.530] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:32:48.627] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:34:30.941] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:34:32.098] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:38:46.983] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:22.102] [ERROR] http - undefined - - "GET /1552638038161-ef9k8ddhn.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:45.591] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:39:45.592] [INFO] console - { fieldname: 'file',
+  originalname: 'md.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552639185587-ypjkwia.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552639185587-ypjkwia.jpeg',
+  size: 127803 } 'filefilefile'
+[2019-03-15 16:39:45.604] [INFO] console - { __v: 0,
+  name: '1552639185587-ypjkwia.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552639185587-ypjkwia.jpeg',
+  size: 127803,
+  type: 'image/jpeg',
+  original_name: 'md.jpg',
+  _id: 5c8b64d14d81836fbf48f236,
+  create_time: 2019-03-15T08:39:45.593Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 16:39:45.613] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:45.648] [INFO] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:58.686] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:39:58.693] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 163 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:58.808] [INFO] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:39:58.815] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:39:58.815] [INFO] console - will check 1552640998690 1552639198815
+[2019-03-15 16:39:58.815] [INFO] console - will update 1552640998815 1552639198815
+[2019-03-15 16:39:58.819] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:44:22.231] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:44:22.402] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:44:22.403] [INFO] console - will check 1552640998815 1552639462403
+[2019-03-15 16:44:22.404] [INFO] console - will update 1552641262403 1552639462403
+[2019-03-15 16:44:22.467] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:45:11.273] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:45:11.273] [INFO] console - will check 1552641262403 1552639511273
+[2019-03-15 16:45:11.276] [INFO] console - will update 1552641311273 1552639511273
+[2019-03-15 16:45:11.279] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:45:50.592] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:45:50.593] [INFO] console - will check 1552641311273 1552639550593
+[2019-03-15 16:45:50.594] [INFO] console - will update 1552641350593 1552639550593
+[2019-03-15 16:45:50.605] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:45:51.477] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:45:51.679] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:45:51.680] [INFO] console - will check 1552641350593 1552639551680
+[2019-03-15 16:45:51.680] [INFO] console - will update 1552641351680 1552639551680
+[2019-03-15 16:45:51.683] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:46:17.153] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:46:17.154] [INFO] console - will check 1552641351680 1552639577154
+[2019-03-15 16:46:17.154] [INFO] console - will update 1552641377154 1552639577154
+[2019-03-15 16:46:17.161] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:46:55.698] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:46:55.698] [INFO] console - will check 1552641377154 1552639615698
+[2019-03-15 16:46:55.699] [INFO] console - will update 1552641415698 1552639615698
+[2019-03-15 16:46:55.701] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:46:57.956] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:46:58.153] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:46:58.153] [INFO] console - will check 1552641415698 1552639618153
+[2019-03-15 16:46:58.154] [INFO] console - will update 1552641418153 1552639618153
+[2019-03-15 16:46:58.157] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:47:29.756] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:47:29.757] [INFO] console - will check 1552641418153 1552639649757
+[2019-03-15 16:47:29.757] [INFO] console - will update 1552641449757 1552639649757
+[2019-03-15 16:47:29.769] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:47:51.285] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:47:51.285] [INFO] console - will check 1552641449757 1552639671285
+[2019-03-15 16:47:51.286] [INFO] console - will update 1552641471285 1552639671285
+[2019-03-15 16:47:51.300] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:48:19.375] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:48:19.376] [INFO] console - will check 1552641471285 1552639699376
+[2019-03-15 16:48:19.377] [INFO] console - will update 1552641499376 1552639699376
+[2019-03-15 16:48:19.380] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:48:48.216] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:48:48.216] [INFO] console - will check 1552641499376 1552639728216
+[2019-03-15 16:48:48.217] [INFO] console - will update 1552641528216 1552639728216
+[2019-03-15 16:48:48.224] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:51:39.282] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:51:39.290] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:51:39.291] [INFO] console - will check 1552641528216 1552639899291
+[2019-03-15 16:51:39.291] [INFO] console - will update 1552641699291 1552639899291
+[2019-03-15 16:51:39.295] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:51:40.924] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:51:40.957] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:51:40.957] [INFO] console - will check 1552641699291 1552639900957
+[2019-03-15 16:51:40.957] [INFO] console - will update 1552641700957 1552639900957
+[2019-03-15 16:51:40.961] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:51:57.242] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:51:57.243] [INFO] console - will check 1552641700957 1552639917243
+[2019-03-15 16:51:57.243] [INFO] console - will update 1552641717243 1552639917243
+[2019-03-15 16:51:57.250] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:52:00.444] [INFO] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:52:00.611] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:52:00.611] [INFO] console - will check 1552641717243 1552639920611
+[2019-03-15 16:52:00.611] [INFO] console - will update 1552641720611 1552639920611
+[2019-03-15 16:52:00.616] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:55:04.599] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:58:48.805] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:59:26.015] [INFO] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 16:59:30.254] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 16:59:30.302] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1149 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:01:20.883] [INFO] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:01:34.605] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:01:34.627] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1149 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:02:54.060] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:02:56.137] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:02:56.140] [INFO] console - will check 1552641720611 1552640576140
+[2019-03-15 17:02:56.140] [INFO] console - will update 1552642376140 1552640576140
+[2019-03-15 17:02:56.149] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:02:57.805] [WARN] http - undefined - - "GET /1552639185587-ypjkwia.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:02:57.838] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:02:57.839] [INFO] console - will check 1552642376140 1552640577839
+[2019-03-15 17:02:57.839] [INFO] console - will update 1552642377839 1552640577839
+[2019-03-15 17:02:57.843] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:03:04.671] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:03:04.672] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552640584670-a9g74bjs.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640584670-a9g74bjs.jpeg',
+  size: 8052 } 'filefilefile'
+[2019-03-15 17:03:04.680] [INFO] console - { __v: 0,
+  name: '1552640584670-a9g74bjs.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640584670-a9g74bjs.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b6a484d81836fbf48f237,
+  create_time: 2019-03-15T09:03:04.673Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 17:03:04.693] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:03:04.744] [INFO] http - undefined - - "GET /1552640584670-a9g74bjs.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:04:48.005] [INFO] http - undefined - - "GET /1552640584670-a9g74bjs.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:04:52.561] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:04:52.596] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 1149 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:05:00.568] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:05:00.569] [INFO] console - { fieldname: 'file',
+  originalname: 'md.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552640700566-0tinycgm.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640700566-0tinycgm.jpeg',
+  size: 127803 } 'filefilefile'
+[2019-03-15 17:05:00.572] [INFO] console - { __v: 0,
+  name: '1552640700566-0tinycgm.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640700566-0tinycgm.jpeg',
+  size: 127803,
+  type: 'image/jpeg',
+  original_name: 'md.jpg',
+  _id: 5c8b6abc4d81836fbf48f238,
+  create_time: 2019-03-15T09:05:00.569Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 17:05:00.580] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:05:00.651] [INFO] http - undefined - - "GET /1552640700566-0tinycgm.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:06:28.654] [INFO] http - undefined - - "GET /1552640700566-0tinycgm.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:06:40.021] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:06:40.021] [INFO] console - { fieldname: 'file',
+  originalname: 'logo.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552640800017-1btl8fha.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640800017-1btl8fha.jpeg',
+  size: 8052 } 'filefilefile'
+[2019-03-15 17:06:40.029] [INFO] console - { __v: 0,
+  name: '1552640800017-1btl8fha.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640800017-1btl8fha.jpeg',
+  size: 8052,
+  type: 'image/jpeg',
+  original_name: 'logo.jpg',
+  _id: 5c8b6b204d81836fbf48f239,
+  create_time: 2019-03-15T09:06:40.023Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 17:06:40.036] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:06:40.100] [INFO] http - undefined - - "GET /1552640800017-1btl8fha.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:38.931] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:09:38.935] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 164 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:39.068] [WARN] http - undefined - - "GET /1552640800017-1btl8fha.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:39.070] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:09:39.071] [INFO] console - will check 1552642778934 1552640979071
+[2019-03-15 17:09:39.071] [INFO] console - will update 1552642779071 1552640979071
+[2019-03-15 17:09:39.074] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 200 717 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:44.175] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:09:44.182] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 164 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:44.345] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:09:44.346] [INFO] console - will check 1552642784179 1552640984346
+[2019-03-15 17:09:44.347] [INFO] console - will update 1552642784346 1552640984346
+[2019-03-15 17:09:44.350] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:54.952] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:09:54.953] [INFO] console - { fieldname: 'file',
+  originalname: 'md.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/workspace/DESserver/api/uploads',
+  filename: '1552640994950-1ay9cd0e.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640994950-1ay9cd0e.jpeg',
+  size: 127803 } 'filefilefile'
+[2019-03-15 17:09:54.956] [INFO] console - { __v: 0,
+  name: '1552640994950-1ay9cd0e.jpeg',
+  path: '/workspace/DESserver/api/uploads/1552640994950-1ay9cd0e.jpeg',
+  size: 127803,
+  type: 'image/jpeg',
+  original_name: 'md.jpg',
+  _id: 5c8b6be24d81836fbf48f23a,
+  create_time: 2019-03-15T09:09:54.953Z,
+  deleted: false } 'objobjobjobj'
+[2019-03-15 17:09:54.965] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 59 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:09:55.028] [INFO] http - undefined - - "GET /1552640994950-1ay9cd0e.jpeg HTTP/1.1" 200 127803 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:10:01.743] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:10:01.749] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 164 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-15 17:10:01.886] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-15 17:10:01.887] [INFO] console - will check 1552642801747 1552641001887
+[2019-03-15 17:10:01.887] [INFO] console - will update 1552642801887 1552641001887
+[2019-03-15 17:10:01.894] [WARN] http - undefined - - "GET /posts/list?author=5c50094c99d8808eaeaf39b1 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"

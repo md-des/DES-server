@@ -78,8 +78,7 @@ function appLoader() {
       cb(null, `${randomString()}.${suffix}`);
     }
   });
-
-  app.use(multer({ storage }).single("file"));
+  app.use(multer({ storage, limits: {fileSize: 10485760} }).single("file"));
   app.use((req, res) => {
     const splittedUrlPath = req.url
       .split("?")[0]

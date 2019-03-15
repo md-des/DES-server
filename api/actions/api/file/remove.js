@@ -1,6 +1,3 @@
-/**
- * Created by isaac on 16/5/9.
- */
 import mongoose from 'mongoose';
 import config from '../../config';
 import fs from 'fs';

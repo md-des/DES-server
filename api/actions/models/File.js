@@ -1,11 +1,7 @@
-/**
- * Created by yons on 16/3/15.
- */
 var mongoose = require('mongoose');
 var ObjectId = mongoose.Schema.Types.ObjectId;
 //附件
 var FileSchema = mongoose.Schema({
-
   name         : String, //名称
   original_name : String,
   path         : String, //路径
