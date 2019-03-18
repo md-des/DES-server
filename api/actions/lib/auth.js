@@ -1,6 +1,3 @@
-/**
- * Created by isaac on 15/10/29.
- */
 import url from "url";
 import moment from "moment";
 import jwt from "jwt-simple";

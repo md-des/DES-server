@@ -9,7 +9,6 @@ export default async req => {
     userId: ['required', 'string']
   });
   const {file} = req;
-  console.log(file, 'filefilefile')
   const obj = new File({
     name: file.filename,
     path: file.path,
@@ -20,7 +19,6 @@ export default async req => {
   });
   await obj.save();
 
-  console.log(obj, 'objobjobjobj')
   // 获取之前用户的头像id,用户存的是头像id
   const user = await Signup.findOne({_id: args.userId}, {avatar: 1});
   // 通过id获取之前头像的name和path

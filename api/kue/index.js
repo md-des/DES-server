@@ -1,6 +1,3 @@
-/**
- * Created by isaac on 16/7/14.
- */
 import kue from 'kue';
 import {kJobDialysisSample} from './constants';
 

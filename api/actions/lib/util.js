@@ -1,6 +1,3 @@
-/**
- * Created by isaac on 16/3/3.
- */
 import {code} from "../config";
 import moment from 'moment';
 
