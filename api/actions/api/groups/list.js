@@ -18,21 +18,23 @@ export const getMemberAndPostsDetails = async function(groups) {
       group.members.push(member)
     }
     for (let i = 0; i < posts.length; i++) {
-      const post = await Post.findOne({_id: posts[i], deleted: false}, {_id: 1, title: 1});
+      const post = await Post.findOne({_id: posts[i], deleted: false}, {title: 1, create_time: 1});
       group.posts.push(post)
     }
+    // 按时间排序
+    group.posts = group.posts.sort((s, t) => s.create_time < t.create_time )
     newGroups.push(group)
   }
   return newGroups;
 }
 export default async req => {
   const args = await argsFilter(req.query, {
-    creator_id: ["required", "string"]
+    creator: ["required", "string"]
   });
   // 自己创建的groups
-  const myGroups = await Group.find({creator_id: args.creator_id}).sort({create_time: -1});
+  const myGroups = await Group.find({creator: args.creator}).sort({create_time: -1}).populate('creator', {name: 1}).exec();
   // 参与的groups
-  const participantGroups = await Group.find({members: {$in: [args.creator_id]}}).sort({create_time: -1});
+  const participantGroups = await Group.find({members: {$in: [args.creator]}}).sort({create_time: -1}).populate('creator', {name: 1}).exec();
   
  
   const myGroupsNew = await getMemberAndPostsDetails(myGroups)

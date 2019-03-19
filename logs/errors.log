@@ -11866,3 +11866,811 @@
 [2019-03-18 15:55:25.354] [INFO] http - ::1 - - "POST /signup/login HTTP/1.1" 200 398 "" "PostmanRuntime/7.1.1"
 [2019-03-18 16:01:03.473] [INFO] console - redis server connect success!
 [2019-03-18 16:01:03.475] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 13:56:38.253] [INFO] console - redis server connect success!
+[2019-03-19 13:56:38.255] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 13:56:49.056] [ERROR] http - undefined - - "GET /1552974726583-y5wccipb.jpeg HTTP/1.1" 404 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 13:57:00.173] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 13:57:00.227] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 13:57:00.285] [INFO] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 13:57:21.412] [INFO] console - redis server connect success!
+[2019-03-19 13:57:21.413] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:03:52.874] [INFO] console - redis server connect success!
+[2019-03-19 14:03:52.876] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:04:36.536] [INFO] console - redis server connect success!
+[2019-03-19 14:04:36.538] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:04:37.811] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:04:56.020] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: 
+     { content: '> test some posts\n\n\n| Head | Head | Head |\n| --- | --- | --- |\n| Data | Data | Data |\n| Data | Data | Data |\n' },
+    key: undefined } ] 'results'
+[2019-03-19 14:04:56.056] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:04:57.473] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:04:57.474] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:04:57.476] [INFO] console - will check 1552976515712 1552975497476
+[2019-03-19 14:04:57.476] [INFO] console - will update 1552977297476 1552975497476
+[2019-03-19 14:04:57.489] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 186 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:04:58.238] [INFO] console - will check 1552977297476 1552975498238
+[2019-03-19 14:04:58.238] [INFO] console - will update 1552977298238 1552975498238
+[2019-03-19 14:04:58.239] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:04:58.246] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c9086881cb391a63c7990bf HTTP/1.1" 200 211 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:05:28.406] [INFO] console - redis server connect success!
+[2019-03-19 14:05:28.409] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:07:19.955] [INFO] console - redis server connect success!
+[2019-03-19 14:07:19.957] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:08:15.103] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:15.125] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 47 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:22.664] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:22.673] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=t HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:23.985] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:23.986] [INFO] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:24.829] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:24.832] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=q HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:25.737] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:25.739] [INFO] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:26.453] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:26.456] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=s HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:27.828] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:27.829] [INFO] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:31.061] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:31.061] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:08:31.064] [INFO] console - will check 1552977298238 1552975711064
+[2019-03-19 14:08:31.064] [INFO] console - will update 1552977511064 1552975711064
+[2019-03-19 14:08:31.070] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 32 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:34.281] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:08:34.311] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:08:34.311] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:08:34.313] [INFO] console - will check 1552977511064 1552975714313
+[2019-03-19 14:08:34.313] [INFO] console - will update 1552977514313 1552975714313
+[2019-03-19 14:08:34.316] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:10:39.428] [INFO] console - redis server connect success!
+[2019-03-19 14:10:39.429] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:11:57.711] [INFO] console - redis server connect success!
+[2019-03-19 14:11:57.713] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:12:08.145] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '> renrwer' }, key: undefined } ] 'results'
+[2019-03-19 14:12:08.188] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:10.799] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:10.800] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:12:10.802] [INFO] console - will check 1552977514313 1552975930802
+[2019-03-19 14:12:10.802] [INFO] console - will update 1552977730802 1552975930802
+[2019-03-19 14:12:10.812] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 185 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:11.947] [INFO] console - will check 1552977730802 1552975931947
+[2019-03-19 14:12:11.947] [INFO] console - will update 1552977731947 1552975931947
+[2019-03-19 14:12:11.948] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:11.954] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 200 103 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:14.154] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:14.160] [WARN] http - undefined - - "GET /groups/list?creator_id=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:17.690] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:17.698] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=1 HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:18.724] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:18.726] [INFO] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:19.252] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:19.256] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=e HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:21.362] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:21.365] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=w HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:22.386] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:22.388] [INFO] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title= HTTP/1.1" 200 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:23.752] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:23.755] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=s HTTP/1.1" 200 72 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:25.410] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [Array] }, key: undefined },
+  { object: { members: [] }, key: undefined } ] 'results'
+[2019-03-19 14:12:25.421] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/create HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:12:25.463] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:12:25.473] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator_id=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 285 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:13:22.159] [INFO] console - redis server connect success!
+[2019-03-19 14:13:22.163] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:13:26.014] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:13:26.018] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:13:26.022] [INFO] console - will check 1552977731947 1552976006022
+[2019-03-19 14:13:26.022] [INFO] console - will update 1552977806022 1552976006022
+[2019-03-19 14:13:26.048] [ERROR] console - API ERROR:   [0m[97m[41mError[0m[90m:[0m[37m [0m[97m{}[0m
+[0m TypeError: Post.find(...).populate(...).exec(...).sort is not a function
+    at _callee$ (/workspace/DESserver/api/actions/api/posts/list.js:14:111)
+    at tryCatch (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (/workspace/DESserver/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /workspace/DESserver/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-03-19 14:13:26.070] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 58 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:13:45.151] [INFO] console - redis server connect success!
+[2019-03-19 14:13:45.153] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:13:51.857] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:13:51.860] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:13:51.861] [INFO] console - will check 1552977806022 1552976031861
+[2019-03-19 14:13:51.861] [INFO] console - will update 1552977831861 1552976031861
+[2019-03-19 14:13:51.890] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 331 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:15.720] [INFO] console - redis server connect success!
+[2019-03-19 14:14:15.721] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:14:18.980] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:18.994] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:18.996] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:14:18.998] [INFO] console - will check 1552977831861 1552976058998
+[2019-03-19 14:14:18.998] [INFO] console - will update 1552977858998 1552976058998
+[2019-03-19 14:14:19.038] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:31.418] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:31.439] [WARN] http - undefined - - "GET /groups/list?creator_id=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:32.701] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:32.701] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:14:32.702] [INFO] console - will check 1552977858998 1552976072702
+[2019-03-19 14:14:32.702] [INFO] console - will update 1552977872702 1552976072702
+[2019-03-19 14:14:32.708] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:35.411] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:35.425] [WARN] http - undefined - - "GET /groups/list?creator_id=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:36.543] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:36.544] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:14:36.544] [INFO] console - will check 1552977872702 1552976076544
+[2019-03-19 14:14:36.545] [INFO] console - will update 1552977876544 1552976076544
+[2019-03-19 14:14:36.552] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:39.457] [INFO] console - will check 1552977876544 1552976079457
+[2019-03-19 14:14:39.458] [INFO] console - will update 1552977879457 1552976079457
+[2019-03-19 14:14:39.458] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:14:39.461] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:14:53.820] [INFO] console - redis server connect success!
+[2019-03-19 14:14:53.822] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:15:22.459] [INFO] console - redis server connect success!
+[2019-03-19 14:15:22.461] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:20:53.621] [INFO] console - redis server connect success!
+[2019-03-19 14:20:53.622] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:20:59.829] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:20:59.853] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 47 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:21:19.546] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [] }, key: undefined },
+  { object: { members: [] }, key: undefined } ] 'results'
+[2019-03-19 14:21:19.588] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/create HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:21:19.623] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:21:19.629] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 213 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:24:08.203] [INFO] console - redis server connect success!
+[2019-03-19 14:24:08.205] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:24:09.043] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:24:09.064] [INFO] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:24:09.081] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 359 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:24:38.914] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:24:38.918] [INFO] http - ::ffff:127.0.0.1 - - "GET /signup/search?name=z HTTP/1.1" 200 70 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:24:40.507] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { key: undefined },
+  { object: { members: [Array] }, key: undefined } ] 'results'
+[2019-03-19 14:24:40.525] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/update HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:24:40.548] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:24:40.562] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 619 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:26:11.968] [INFO] console - redis server connect success!
+[2019-03-19 14:26:11.971] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:26:24.121] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:26:24.178] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 494 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:26:29.671] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:26:29.704] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:26:29.855] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:27:20.439] [INFO] console - redis server connect success!
+[2019-03-19 14:27:20.441] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:27:24.444] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:27:24.487] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:27:24.542] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 515 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:27:32.645] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:27:32.681] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:27:32.765] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:28:09.808] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:28:09.825] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:28:33.306] [INFO] console - redis server connect success!
+[2019-03-19 14:28:33.308] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:32:18.087] [INFO] console - redis server connect success!
+[2019-03-19 14:32:18.088] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:32:24.688] [INFO] console - redis server connect success!
+[2019-03-19 14:32:24.690] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:33:36.520] [INFO] console - redis server connect success!
+[2019-03-19 14:33:36.522] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:37:28.742] [INFO] console - redis server connect success!
+[2019-03-19 14:37:28.744] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:38:04.083] [INFO] console - redis server connect success!
+[2019-03-19 14:38:04.085] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:38:07.961] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:08.120] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:08.182] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:11.496] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:11.496] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:38:11.499] [INFO] console - will check 1552977879457 1552977491499
+[2019-03-19 14:38:11.500] [INFO] console - will update 1552979291499 1552977491499
+[2019-03-19 14:38:11.513] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 185 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:12.560] [INFO] console - will check 1552979291499 1552977492560
+[2019-03-19 14:38:12.561] [INFO] console - will update 1552979292560 1552977492560
+[2019-03-19 14:38:12.562] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:12.568] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:14.576] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:14.595] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:22.596] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:22.600] [WARN] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=s HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:24.253] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [Array] }, key: undefined },
+  { key: undefined } ] 'results'
+[2019-03-19 14:38:24.261] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/update HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:24.279] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:24.304] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 613 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:25.834] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:25.840] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 200 283 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:26.603] [INFO] console - will check 1552979292560 1552977506603
+[2019-03-19 14:38:26.603] [INFO] console - will update 1552979306603 1552977506603
+[2019-03-19 14:38:26.604] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:26.608] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:43.787] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: 
+     { content: '> renrwerweqe\n\n\n\n\n| Head | Head | Head | Head |\n| --- | --- | --- | --- |\n| Data | Data | Data | Data |\n| Data | Data | Data | Data |\n| Data | Data | Data | Data |\n' },
+    key: undefined } ] 'results'
+[2019-03-19 14:38:43.801] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/update HTTP/1.1" 200 296 "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:46.572] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:46.572] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:38:46.573] [INFO] console - will check 1552979306603 1552977526573
+[2019-03-19 14:38:46.573] [INFO] console - will update 1552979326573 1552977526573
+[2019-03-19 14:38:46.577] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 188 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:47.501] [INFO] console - will check 1552979326573 1552977527501
+[2019-03-19 14:38:47.502] [INFO] console - will update 1552979327501 1552977527501
+[2019-03-19 14:38:47.502] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:47.506] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 200 271 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:38:49.303] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:38:49.316] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 619 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:00.477] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## dsfndsf' }, key: undefined } ] 'results'
+[2019-03-19 14:39:00.505] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:01.809] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:01.824] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:07.671] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:07.672] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:39:07.672] [INFO] console - will check 1552979327501 1552977547672
+[2019-03-19 14:39:07.672] [INFO] console - will update 1552979347672 1552977547672
+[2019-03-19 14:39:07.680] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 342 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:09.486] [INFO] console - will check 1552979347672 1552977549486
+[2019-03-19 14:39:09.486] [INFO] console - will update 1552979349486 1552977549486
+[2019-03-19 14:39:09.486] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:09.489] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c908e8447a5445c3d126fa2 HTTP/1.1" 200 104 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:11.573] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:11.587] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:14.860] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:14.864] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=s HTTP/1.1" 200 75 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:15.073] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:15.076] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=ss HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:15.259] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:15.261] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=sss HTTP/1.1" 200 23 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:16.305] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:16.308] [WARN] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=ss HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:16.560] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:16.562] [WARN] http - undefined - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=s HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:18.753] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [Array] }, key: undefined },
+  { key: undefined } ] 'results'
+[2019-03-19 14:39:18.758] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/update HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:18.779] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:18.794] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:24.566] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:24.605] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:24.616] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:34.140] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:34.171] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:34.186] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:54.908] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:54.914] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 200 286 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:56.006] [INFO] console - will check 1552979349486 1552977596006
+[2019-03-19 14:39:56.007] [INFO] console - will update 1552979396006 1552977596006
+[2019-03-19 14:39:56.007] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:56.011] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:39:57.709] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:39:57.723] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:01.085] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:01.085] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:40:01.085] [INFO] console - will check 1552979396006 1552977601085
+[2019-03-19 14:40:01.086] [INFO] console - will update 1552979401085 1552977601085
+[2019-03-19 14:40:01.092] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:03.549] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:03.569] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:08.240] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:08.242] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c8f641c7ef233df27cb6c07&title=f HTTP/1.1" 200 72 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:10.416] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [Array] }, key: undefined },
+  { key: undefined } ] 'results'
+[2019-03-19 14:40:10.419] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/update HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:10.447] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:10.483] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 719 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:11.722] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:11.728] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 200 336 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:12.767] [INFO] console - will check 1552979401085 1552977612767
+[2019-03-19 14:40:12.768] [INFO] console - will update 1552979412767 1552977612767
+[2019-03-19 14:40:12.768] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:12.771] [WARN] http - undefined - - "GET /posts/getPost?id=5c908e8447a5445c3d126fa2 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:13.530] [INFO] console - will check 1552979412767 1552977613529
+[2019-03-19 14:40:13.530] [INFO] console - will update 1552979413529 1552977613529
+[2019-03-19 14:40:13.530] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:13.533] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:17.245] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:17.263] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:19.216] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:19.217] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:40:19.217] [INFO] console - will check 1552979413529 1552977619217
+[2019-03-19 14:40:19.218] [INFO] console - will update 1552979419217 1552977619217
+[2019-03-19 14:40:19.223] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:23.281] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:23.309] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:40:25.792] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:40:25.798] [WARN] http - undefined - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:41:31.864] [INFO] console - redis server connect success!
+[2019-03-19 14:41:31.865] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:41:36.206] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:41:36.209] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c90836839416124328c0faa',
+     name: '1552974696873-o8ee2kxl.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:41:36.212] [INFO] console - will check 1552979419217 1552977696212
+[2019-03-19 14:41:36.213] [INFO] console - will update 1552979496212 1552977696212
+[2019-03-19 14:41:36.242] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:41:39.565] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:41:39.605] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:41:40.664] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:41:40.677] [WARN] http - undefined - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:41:48.536] [INFO] console - redis server connect success!
+[2019-03-19 14:41:48.538] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:42:32.565] [INFO] console - redis server connect success!
+[2019-03-19 14:42:32.567] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:42:35.213] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:42:37.429] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:42:37.481] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 831 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:42:43.393] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:42:43.405] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 200 392 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:44:03.529] [INFO] console - redis server connect success!
+[2019-03-19 14:44:03.531] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:44:04.889] [WARN] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:44:07.481] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:44:07.520] [WARN] http - undefined - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:44:09.240] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:44:09.249] [WARN] http - undefined - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:44:58.789] [INFO] console - redis server connect success!
+[2019-03-19 14:44:58.791] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:45:02.237] [INFO] http - undefined - - "GET /1552975020167-a6whhea.jpeg HTTP/1.1" 200 8052 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:45:02.242] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:45:02.303] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c8f641c7ef233df27cb6c07 HTTP/1.1" 200 831 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:45:10.727] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:45:10.740] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c908a5f3a3b06093d4fc909 HTTP/1.1" 200 392 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:45:37.788] [INFO] console - redis server connect success!
+[2019-03-19 14:45:37.791] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:45:45.567] [INFO] console - redis server connect success!
+[2019-03-19 14:45:45.568] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:46:57.343] [INFO] console - redis server connect success!
+[2019-03-19 14:46:57.344] [WARN] console - node_redis: Warning: Redis server does not require a password, but a password was supplied.
+[2019-03-19 14:46:59.134] [INFO] console - will check 1552979496212 1552978019134
+[2019-03-19 14:46:59.134] [INFO] console - will update 1552979819134 1552978019134
+[2019-03-19 14:46:59.137] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:46:59.161] [WARN] http - undefined - - "GET /posts/getPost?id=5c908e8447a5445c3d126fa2 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:46:59.885] [INFO] console - will check 1552979819134 1552978019885
+[2019-03-19 14:46:59.886] [INFO] console - will update 1552979819885 1552978019885
+[2019-03-19 14:46:59.886] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:46:59.891] [WARN] http - undefined - - "GET /posts/getPost?id=5c908838a39d15ca3c11813b HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:23.787] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:23.794] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 40 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:30.560] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { key: undefined } ] 'results'
+[2019-03-19 14:48:30.597] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/account HTTP/1.1" 200 13 "http://localhost:9000/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:34.465] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:34.476] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 143 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:34.597] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:34.597] [INFO] console - { _id: '5c8f641c7ef233df27cb6c07',
+  name: 'zlx',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  avatar: 
+   { _id: '5c9084ac9451a1fa38c65dbb',
+     name: '1552975020167-a6whhea.jpeg' },
+  create_time: 1552901148294,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:48:34.597] [INFO] console - will check 1552979914475 1552978114597
+[2019-03-19 14:48:34.598] [INFO] console - will update 1552979914597 1552978114597
+[2019-03-19 14:48:34.606] [WARN] http - undefined - - "GET /posts/list?author=5c8f641c7ef233df27cb6c07 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:42.186] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:42.191] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/login HTTP/1.1" 200 106 "http://localhost:9000/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:42.292] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:42.292] [INFO] console - { _id: '5c9090be7880757c3d007763',
+  name: 'zlx1',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  create_time: 1552978110564,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:48:42.293] [INFO] console - will check 1552979922190 1552978122293
+[2019-03-19 14:48:42.293] [INFO] console - will update 1552979922293 1552978122293
+[2019-03-19 14:48:42.296] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c9090be7880757c3d007763 HTTP/1.1" 200 32 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:47.782] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:47.783] [INFO] console - { _id: '5c9090be7880757c3d007763',
+  name: 'zlx1',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  create_time: 1552978110564,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:48:47.783] [INFO] console - will check 1552979922293 1552978127783
+[2019-03-19 14:48:47.784] [INFO] console - will update 1552979927783 1552978127783
+[2019-03-19 14:48:47.787] [WARN] http - undefined - - "GET /posts/list?author=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:49.166] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:49.183] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 200 47 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:48:59.851] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:48:59.865] [WARN] http - undefined - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:05.814] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [] }, key: undefined },
+  { object: { members: [] }, key: undefined } ] 'results'
+[2019-03-19 14:49:05.833] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/create HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:05.876] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:05.885] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 200 234 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:18.275] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { content: '## kfwe' }, key: undefined } ] 'results'
+[2019-03-19 14:49:18.284] [INFO] http - ::ffff:127.0.0.1 - - "POST /posts/create HTTP/1.1" 200 13 "http://localhost:9000/document/new" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:19.319] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:19.320] [INFO] console - { _id: '5c9090be7880757c3d007763',
+  name: 'zlx1',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  create_time: 1552978110564,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:49:19.321] [INFO] console - will check 1552979927783 1552978159321
+[2019-03-19 14:49:19.321] [INFO] console - will update 1552979959321 1552978159321
+[2019-03-19 14:49:19.327] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/list?author=5c9090be7880757c3d007763 HTTP/1.1" 200 183 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:20.395] [INFO] console - will check 1552979959321 1552978160395
+[2019-03-19 14:49:20.396] [INFO] console - will update 1552979960395 1552978160395
+[2019-03-19 14:49:20.396] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:20.403] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/getPost?id=5c9090ee7880757c3d007765 HTTP/1.1" 200 99 "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:21.625] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:21.634] [WARN] http - undefined - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:25.873] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:25.877] [INFO] http - ::ffff:127.0.0.1 - - "GET /posts/search?author=5c9090be7880757c3d007763&title=q HTTP/1.1" 200 70 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:28.475] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  { object: { posts: [Array] }, key: undefined },
+  { key: undefined } ] 'results'
+[2019-03-19 14:49:28.486] [INFO] http - ::ffff:127.0.0.1 - - "POST /groups/update HTTP/1.1" 200 13 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:28.507] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:28.525] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 200 309 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:34.030] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:34.034] [INFO] http - ::ffff:127.0.0.1 - - "GET /groups/detail?_id=5c9090e17880757c3d007764 HTTP/1.1" 200 261 "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:34.965] [INFO] console - will check 1552979960395 1552978174965
+[2019-03-19 14:49:34.965] [INFO] console - will update 1552979974965 1552978174965
+[2019-03-19 14:49:34.965] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:34.968] [WARN] http - undefined - - "GET /posts/getPost?id=5c9090ee7880757c3d007765 HTTP/1.1" 304 - "http://localhost:9000/project/detail" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:36.361] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:36.370] [WARN] http - undefined - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:51.569] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:51.585] [INFO] http - ::ffff:127.0.0.1 - - "POST /file/uploadAvatar HTTP/1.1" 200 58 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:51.643] [INFO] http - undefined - - "GET /1552978191552-eatuh4n.jpeg HTTP/1.1" 200 273130 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:49:57.536] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ],
+  [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:49:57.549] [INFO] http - ::ffff:127.0.0.1 - - "POST /signup/update HTTP/1.1" 200 69 "http://localhost:9000/setting/user" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:50:01.741] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:50:01.741] [INFO] console - { _id: '5c9090be7880757c3d007763',
+  name: 'zlx1',
+  pass: '6ed7e9a926ea015b',
+  type: '0',
+  __v: 0,
+  create_time: 1552978110564,
+  deleted: false } 'req.session.user'
+[2019-03-19 14:50:01.742] [INFO] console - will check 1552979974965 1552978201742
+[2019-03-19 14:50:01.742] [INFO] console - will update 1552980001742 1552978201742
+[2019-03-19 14:50:01.747] [WARN] http - undefined - - "GET /posts/list?author=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/document/my" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:50:02.832] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:50:02.842] [WARN] http - undefined - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+[2019-03-19 14:50:06.903] [INFO] console - [ [ { object: [Object], key: undefined },
+    { object: [Object], key: undefined } ] ] 'results'
+[2019-03-19 14:50:06.915] [WARN] http - undefined - - "GET /groups/list?creator=5c9090be7880757c3d007763 HTTP/1.1" 304 - "http://localhost:9000/project/all" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"

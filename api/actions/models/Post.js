@@ -10,7 +10,7 @@ export const enums = {
 const schema = mongoose.Schema({
   postId: ObjectId,
   title: String, // 标题
-  author: String,
+  author: {type: ObjectId, ref: 'Signup'}, // 关联用户
   content: String, // 内容
   type: { type: String, enums: enums.status }, // 类型 'public'：已发布文章 'draft'：草稿
   deleted: { type: Boolean, default: false },

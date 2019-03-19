@@ -6,8 +6,7 @@ const ObjectId = mongoose.Schema.Types.ObjectId;
 // 文章群组
 const schema = mongoose.Schema({
   id: ObjectId, // 组id
-  creator_id: String, // 组创建者id
-  creator_name: String,// 组创建者name
+  creator: {type: ObjectId, ref: 'Signup'}, // 关联用户id, // 组创建者id
   posts: Array, // 组文章id
   members: Array, // 组成员
   group_name: String, // 组名
