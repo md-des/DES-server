@@ -8,7 +8,7 @@ export default async req => {
   const args = await argsFilter(req.body, {
     userId: ['required', 'string']
   });
-  const {file} = req;
+  const { file } = req;
   const obj = new File({
     name: file.filename,
     path: file.path,
@@ -19,15 +19,17 @@ export default async req => {
   });
   await obj.save();
 
-  // 获取之前用户的头像id,用户存的是头像id
-  const user = await Signup.findOne({_id: args.userId}, {avatar: 1});
-  // 通过id获取之前头像的name和path
-  const prevAvatar = await File.findOne({_id: user.avatar}, {name: 1, path: 1});
-  // File中删除之前用户的头像
-  await File.remove({_id: user.avatar});
-  // 删除图片文件
-  if (prevAvatar) {
-    fs.unlinkSync(prevAvatar.path);
+  // 获取之前用户的头像id,和avatar
+  const user = await Signup.findOne({ _id: args.userId })
+    .populate('avatar', { name: 1, path: 1 })
+    .exec();
+  if (user.avatar) {
+    // File中删除之前用户的头像
+    await File.remove({ _id: user.avatar._id });
+    // 删除图片文件
+    if (user.avatar) {
+      fs.unlinkSync(user.avatar.path);
+    }
   }
   // 关联新头像id至用户
   await Signup.findOneAndUpdate(

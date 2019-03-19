@@ -6,7 +6,7 @@ export const enums = {
   status: ["public", "draft"] // 'public'：已发布文章 'draft'：草稿
 };
 
-// 申请
+// 文章
 const schema = mongoose.Schema({
   postId: ObjectId,
   title: String, // 标题

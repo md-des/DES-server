@@ -24,7 +24,7 @@ export default async req => {
           role: user.role,
           create_time: user.create_time,
           _id: user._id,
-          avatar: user.avatar.name
+          avatar: user.avatar && user.avatar.name
         }
       }
     };

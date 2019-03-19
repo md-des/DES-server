@@ -7,7 +7,6 @@ var FileSchema = mongoose.Schema({
   path         : String, //路径
   size         : Number,
   type         : String,
-  creator      : {type: ObjectId, ref: 'Admin'},
   deleted      : {type: Boolean, default: false},
   create_time  : {type: Date, default: Date.now}
 });
