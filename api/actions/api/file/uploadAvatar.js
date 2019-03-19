@@ -28,7 +28,12 @@ export default async req => {
     await File.remove({ _id: user.avatar._id });
     // 删除图片文件
     if (user.avatar) {
-      fs.unlinkSync(user.avatar.path);
+      // 判断文件是否存在
+      fs.exists(user.avatar.path, flag => {
+        if (flag) {
+          fs.unlinkSync(user.avatar.path);
+        }
+      });
     }
   }
   // 关联新头像id至用户
