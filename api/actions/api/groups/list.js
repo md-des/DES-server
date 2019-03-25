@@ -22,7 +22,9 @@ export const getMemberAndPostsDetails = async function(groups) {
       group.posts.push(post)
     }
     // 按时间排序
-    group.posts = group.posts.sort((s, t) => s.create_time < t.create_time )
+    if (group.posts.length > 1) {
+      group.posts = group.posts.sort((s, t) => s.create_time < t.create_time)
+    }
     newGroups.push(group)
   }
   return newGroups;
